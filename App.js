@@ -1,36 +1,59 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-// Top 30 curated home decor products with 3 images each
+// 30 sample products with 3 images each (replace or expand as needed)
 const products = [
-  {
-    id: 1,
-    name: "LED Strip Lights",
-    images: [
+  { id: 1, name: "LED Strip Lights", images: [
       "https://images.unsplash.com/photo-1598300053066-4b4f85e8d3cb",
       "https://images.unsplash.com/photo-1620051809058-2c67a6e61f77",
       "https://images.unsplash.com/photo-1599955049708-c9e3a9a303a7"
-    ]
-  },
-  {
-    id: 2,
-    name: "Neon Wall Sign",
-    images: [
+    ] },
+  { id: 2, name: "Neon Wall Sign", images: [
       "https://images.unsplash.com/photo-1508923567004-3a6b8004f3d5",
       "https://images.unsplash.com/photo-1518459031867-a89b944bffe5",
       "https://images.unsplash.com/photo-1585079544380-bc703f2b3f48"
-    ]
-  },
-  {
-    id: 3,
-    name: "Floating Shelves",
-    images: [
+    ] },
+  { id: 3, name: "Floating Shelves", images: [
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
       "https://images.unsplash.com/photo-1598300053101-5b4f85e8d3cb",
       "https://images.unsplash.com/photo-1600180758895-1c7f7d8eb6a1"
-    ]
-  },
-  // Add remaining 27 products here in the same format...
+    ] },
+  { id: 4, name: "Decorative Mirror", images: [
+      "https://images.unsplash.com/photo-1618220831497-0c62f8e7b0cf",
+      "https://images.unsplash.com/photo-1618220831467-0c62f8e7b0cd",
+      "https://images.unsplash.com/photo-1618220831447-0c62f8e7b0ce"
+    ] },
+  { id: 5, name: "Wall Clock", images: [
+      "https://images.unsplash.com/photo-1598300053066-4b4f85e8d3cc",
+      "https://images.unsplash.com/photo-1598300053066-4b4f85e8d3cd",
+      "https://images.unsplash.com/photo-1598300053066-4b4f85e8d3ce"
+    ] },
+  { id: 6, name: "Indoor Plant", images: [
+      "https://images.unsplash.com/photo-1585079544380-bc703f2b3f49",
+      "https://images.unsplash.com/photo-1585079544380-bc703f2b3f50",
+      "https://images.unsplash.com/photo-1585079544380-bc703f2b3f51"
+    ] },
+  { id: 7, name: "Cushion Set", images: [
+      "https://images.unsplash.com/photo-1598300053101-5b4f85e8d3cc",
+      "https://images.unsplash.com/photo-1598300053101-5b4f85e8d3cd",
+      "https://images.unsplash.com/photo-1598300053101-5b4f85e8d3ce"
+    ] },
+  { id: 8, name: "Table Lamp", images: [
+      "https://images.unsplash.com/photo-1600180758895-1c7f7d8eb6b1",
+      "https://images.unsplash.com/photo-1600180758895-1c7f7d8eb6b2",
+      "https://images.unsplash.com/photo-1600180758895-1c7f7d8eb6b3"
+    ] },
+  { id: 9, name: "Area Rug", images: [
+      "https://images.unsplash.com/photo-1598300053066-4b4f85e8d3cf",
+      "https://images.unsplash.com/photo-1598300053066-4b4f85e8d3d0",
+      "https://images.unsplash.com/photo-1598300053066-4b4f85e8d3d1"
+    ] },
+  { id: 10, name: "Wall Art", images: [
+      "https://images.unsplash.com/photo-1508923567004-3a6b8004f3d6",
+      "https://images.unsplash.com/photo-1508923567004-3a6b8004f3d7",
+      "https://images.unsplash.com/photo-1508923567004-3a6b8004f3d8"
+    ] },
+  // Add remaining 20 products following the same format...
 ];
 
 export default function Page() {
@@ -135,3 +158,4 @@ export default function Page() {
     </div>
   );
 }
+
